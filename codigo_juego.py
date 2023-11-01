@@ -22,6 +22,7 @@ while flag_correr:
         if evento.type == pygame.QUIT:
             flag_correr = False
 
+
     lista_teclas = pygame.key.get_pressed()
 
     if lista_teclas[pygame.K_RIGHT] == True:
